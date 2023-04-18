@@ -1,7 +1,6 @@
-import React from "react";
 import { AppShell } from "@mantine/core";
-import Footer from "../footer";
-import Navbar from "../navbar";
+import Navbar from "components/navbar";
+import Footer from "components/footer";
 
 const AppLayout = ({ children }) => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import { Text, Title } from "@mantine/core";
 import { BsArrowRight } from "react-icons/bs";
 import { ImPhone } from "react-icons/im";
@@ -9,8 +8,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { Link } from "react-scroll/modules";
 
 import { About, AllLinks, Buttons, Contact, Links, Wrapper } from "./style";
-import headerLists from "../mockData/headerList";
-import services from "../mockData/services";
+import services from "mockData/services";
+import headerLists from "mockData/headerList";
 
 const Footer = () => {
   return (

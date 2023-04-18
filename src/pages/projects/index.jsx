@@ -2,8 +2,8 @@ import { Button, Text, Title } from "@mantine/core";
 import { BsArrowRight } from "react-icons/bs";
 
 import { Card, CardBox, Wrapper } from "./style";
-import HRLine from "../../components/hrline";
-import projects from "../../mockData/projectsData";
+import projects from "mockData/projectsData";
+import HRLine from "components/hrline";
 
 const ProjectsPage = () => {
   return (

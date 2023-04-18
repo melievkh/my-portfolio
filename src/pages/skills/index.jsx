@@ -9,8 +9,8 @@ import {
   Skills,
   Wrapper,
 } from "./style";
-import HRLine from "../../components/hrline";
-import skills from "../../components/mockData/skillsData";
+import HRLine from "components/hrline";
+import skills from "mockData/skillsData";
 
 const SkillsPage = () => {
   return (

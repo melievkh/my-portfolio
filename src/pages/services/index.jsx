@@ -1,8 +1,8 @@
 import { Text, Title } from "@mantine/core";
 
 import { Card, CardBox, Wrapper } from "./style";
-import services from "../../components/mockData/services";
-import HRLine from "../../components/hrline";
+import HRLine from "components/hrline";
+import services from "mockData/services";
 
 const ServicesPage = () => {
   return (

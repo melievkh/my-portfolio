@@ -4,7 +4,7 @@ import { Link } from "react-scroll/modules";
 import { RiTelegramFill } from "react-icons/ri";
 
 import { Buttons, InfoPart, SImage, SText, Wrapper } from "./style";
-import HRLine from "../../components/hrline";
+import HRLine from "components/hrline";
 
 const Home = () => {
   return (

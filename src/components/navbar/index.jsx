@@ -1,11 +1,10 @@
-import React from "react";
 import { Header as MHeader, Menu, Text } from "@mantine/core";
 import { Title } from "@mantine/core";
 import { Link } from "react-scroll/modules";
 import { FaBars } from "react-icons/fa";
 
-import headerLists from "../mockData/headerList";
 import useStyles from "./style";
+import headerLists from "mockData/headerList";
 
 const Navbar = () => {
   const { classes } = useStyles();

@@ -3,7 +3,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { Button, Image, TextInput, Textarea, Title } from "@mantine/core";
 
 import { ContactBox, SImage, Wrapper } from "./style";
-import { schema } from "../../schema";
+import { schema } from "schema";
 
 const ContactPage = () => {
   const {
